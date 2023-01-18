@@ -1,0 +1,58 @@
+header{
+    text-align: center; 
+    background-color: black; 
+    color: antiquewhite;
+    -webkit-text-stroke: 0.8px azure
+    
+
+    }
+
+#img {
+    text-align: center;
+}
+
+body{
+ background-image: url(../img/fondo1.jpg);
+
+}
+
+footer{
+    text-align: center;
+}
+
+nav{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#titulo{
+
+  background-color: lightgreen;
+}
+
+@media screen and (max-width: 600px) {
+
+   #img {
+  
+  max-width: 100%;
+  height: auto;
+    }
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: auto auto auto auto;
+    font-size: 15px;
+  }
+
+
