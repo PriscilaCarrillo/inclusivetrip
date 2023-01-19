@@ -2,32 +2,36 @@ header{
     text-align: center;  
     background-color: rgb(175, 224, 175); 
     color: rgb(255, 255, 255);
-    
+    }
 
+#titulo{
+
+    font-family: 'Lobster', cursive;
     }
 
 #img {
     text-align: center;
-}
+    }
 
 body{
- background-image: url(../img/fondo1.jpg);
+ /* background-image: url(../img/degradado.jpg); */
+ background-color: aliceblue;
 
-}
+    }
 
 footer{
     text-align: center;
-}
+    }
 
 nav{
 
-    font-family: cursive;
-}
+    font-family: 'Lobster', cursive;
+    }
 
 #titulo{
 
   background-color: rgb(175, 224, 175);
-}
+   }
 
 @media screen and (max-width: 600px) {
 
@@ -37,7 +41,7 @@ nav{
   height: auto;
     }
 
-}
+   }
 
 /* .navbar {
     display: flex;
@@ -49,14 +53,27 @@ nav{
   
   
   .carousel-inner img{
-   width: 50%;
-   max-height: 300px;
-   height:  300px;
+   width: 60%;
+   max-height: 500px;
+   height:  500px;
 
-  }
+    }
 
   #logo1{
+    margin-top: 40px;
     margin-left: 20px;
     position: absolute;
-    width: 40px;
-  }
+    width: 90px;
+
+   }
+
+  #pres{
+
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+   }
+
+  .card-body{
+
+    background-image: url(../img/hojas3.jpg);
+   }
