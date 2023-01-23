@@ -1,47 +1,60 @@
-header{
-    text-align: center;  
-    background-color: rgb(175, 224, 175); 
-    color: rgb(255, 255, 255);
-    }
+header {
+  text-align: center;
+  background-color: rgb(175, 224, 175);
+  color: rgb(255, 255, 255);
+}
 
-#titulo{
+h1 {
 
-    font-family: 'Lobster', cursive;
-    }
+  font-family: 'Lobster', cursive;
+
+}
 
 #img {
-    text-align: center;
-    }
+  text-align: center;
+}
 
-body{
- /* background-image: url(../img/degradado.jpg); */
- background-color: aliceblue;
+body {
 
-    }
+  background-color: aliceblue;
 
-footer{
-    text-align: center;
-    }
+}
 
-nav{
+footer {
+  text-align: center;
+}
 
-    font-family: 'Lobster', cursive;
-    }
+nav {
 
-#titulo{
+  font-family: 'Lobster', cursive;
+  text-decoration-color: black;
+}
+
+#titulo {
 
   background-color: rgb(175, 224, 175);
-   }
 
-@media screen and (max-width: 600px) {
 
-   #img {
-  
-  max-width: 100%;
-  height: auto;
-    }
+}
 
-   }
+@media screen and (max-width: 1050px) {
+
+  #img {
+
+    max-width: 100%;
+    height: auto;
+  }
+
+  .calendario {
+    max-width: auto;
+    height: auto;
+  }
+
+  .turista {
+    max-width: auto;
+    height: auto;
+  }
+}
 
 /* .navbar {
     display: flex;
@@ -50,30 +63,95 @@ nav{
     height: 40px;
     background-color: rgb(0, 0, 0);
   } */
-  
-  
-  .carousel-inner img{
-   width: 60%;
-   max-height: 500px;
-   height:  500px;
 
-    }
 
-  #logo1{
-    margin-top: 40px;
-    margin-left: 20px;
-    position: absolute;
-    width: 90px;
+.carousel-inner img {
+  width: 60%;
+  max-height: 500px;
+  height: 500px;
+  margin-left: 0%;
+  margin-right: 10%;
 
-   }
+}
 
-  #pres{
+#logooo2 {
+  margin-top: 50px;
+  margin-left: 30px;
+  position: absolute;
+  width: 65px
+}
 
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-   }
+#pres {
 
-  .card-body{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
 
-    background-image: url(../img/hojas3.jpg);
-   }
+#pres2 {
+
+  font-family: 'Nunito', sans-serif;
+
+}
+
+#pres3 {
+
+  font-family: 'Nunito', sans-serif;
+}
+
+#pres4 {
+
+  font-family: 'Nunito', sans-serif;
+}
+
+.card-body {
+
+  background-image: url(../img/hojas3.jpg);
+}
+
+
+.nav-link {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-family: 'Lobster', cursive;
+}
+
+#iti {
+
+  background-color: rgb(175, 224, 175);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#gal {
+
+  background-color: rgb(175, 224, 175);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.calendario {
+
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.turista {
+
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#itinformation {
+
+  text-align: center;
+}
+
+#itilistado {
+
+  text-align: left;
+}
+
+.card {}
