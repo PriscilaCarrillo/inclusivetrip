@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-
+ 
   background-color: aliceblue;
 
 }
@@ -24,17 +24,17 @@ footer {
   text-align: center;
 }
 
-nav {
+nav{
 
-  font-family: 'Lobster', cursive;
-  text-decoration-color: black;
-}
+    font-family: 'Lobster', cursive;
+    text-decoration-color: black;
+    }
 
 #titulo {
 
   background-color: rgb(175, 224, 175);
-
-
+   
+  
 }
 
 @media screen and (max-width: 1050px) {
@@ -44,13 +44,11 @@ nav {
     max-width: 100%;
     height: auto;
   }
-
-  .calendario {
+  .calendario{
     max-width: auto;
     height: auto;
   }
-
-  .turista {
+  .turista{
     max-width: auto;
     height: auto;
   }
@@ -90,7 +88,7 @@ nav {
 #pres2 {
 
   font-family: 'Nunito', sans-serif;
-
+  
 }
 
 #pres3 {
@@ -105,7 +103,7 @@ nav {
 
 .card-body {
 
-  background-image: url(../img/hojas3.jpg);
+  /* background-image: url(../img/hojas3.jpg); */
 }
 
 
@@ -115,41 +113,41 @@ nav {
   font-family: 'Lobster', cursive;
 }
 
-#iti {
+#iti{
 
   background-color: rgb(175, 224, 175);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
-#gal {
+#gal{
 
   background-color: rgb(175, 224, 175);
   background-repeat: no-repeat;
   background-size: auto;
 }
 
-.calendario {
+.calendario{
 
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-
+  
 }
 
-.turista {
+.turista{
 
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-#itinformation {
+#itinformation{
 
   text-align: center;
 }
 
-#itilistado {
+#itilistado{
 
   text-align: left;
 }
